@@ -11,5 +11,11 @@
   "httpProxy": {
     "type": "unique",
     "value": "http://proxy.ex.test.com:80"
+  },
+  "noProxy": {
+    "type": "adhoc",
+    "value": [
+      "microsoft.com"
+    ]
   }
 }
