@@ -1,0 +1,7 @@
+{
+  "proxy_test": "{{vars/httpProxy | java_proxy | upper}}",
+  "dns_test": "{{vars/customDns}}",
+  "noproxy_test": "{{vars/noProxy}}",
+  "nodefined_test": "{{vars/noDefined}}",
+  "nodefinedfunc_test": "{{vars/noDefinedFunc}}"
+}

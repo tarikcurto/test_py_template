@@ -1,0 +1,15 @@
+{
+  "customDns": {
+    "type": "env",
+    "value": {
+      "hyb": "10.15.7.0",
+      "dev": "10.15.7.0",
+      "pre": "10.15.7.0",
+      "pro": "10.15.7.5"
+    }
+  },
+  "httpProxy": {
+    "type": "unique",
+    "value": "http://proxy.ex.test.com:80"
+  }
+}
